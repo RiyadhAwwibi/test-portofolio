@@ -1,0 +1,174 @@
+.preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background-color: #fff;
+}
+
+.preloader__spinner-grow {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+
+/* global css */
+.body-background {
+  background-color: #fffcfb;
+}
+
+.btn-custom {
+  background-color: #fb4b1a;
+  color: #fff;
+}
+.btn-custom:hover {
+  background-color: #fff;
+  color: #fb4b1a;
+}
+
+.link-custom:hover {
+  color: #ff7e5b;
+}
+
+.About,
+.Project,
+.Skill,
+.Contact {
+  padding-bottom: 6rem;
+}
+
+.form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+
+::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.541) !important;
+}
+
+:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.541) !important;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.541) !important;
+}
+
+.Header__navbar-scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.Header {
+  min-height: 80vh;
+}
+.Header .Header__text-secondary {
+  color: #979797;
+}
+
+.Social__row {
+  width: 100%;
+  display: flex;
+}
+.Social__row .Social__icon {
+  width: 25px;
+  height: 25px;
+}
+
+.waves-divider {
+  background-image: url("/assets/img/waves.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 250px;
+}
+
+.content {
+  background: linear-gradient(180deg, hsl(13deg, 97%, 54%) 0%, hsl(333deg, 100%, 53%) 100%);
+}
+.content .content__button {
+  background-color: #fff;
+  color: hsl(13deg, 97%, 54%);
+}
+.content .content__button:hover {
+  background-color: transparent;
+  color: #ffffff;
+}
+.content .content__button:link {
+  background-color: transparent;
+  color: #ffffff;
+}
+
+.About,
+.Project,
+.Contact {
+  min-height: 80vh;
+}
+
+.Project__card {
+  border-color: #fff;
+}
+.Project__card .Project__card-text {
+  color: #6b6b6b;
+}
+.Project__card .Project__card-link-primary {
+  color: #ff7a55;
+  text-decoration: none;
+}
+.Project__card .Project__card-link-primary :hover {
+  color: #fb4b1a;
+}
+
+.Skill {
+  background-color: rgb(255, 255, 255);
+}
+.Skill .Skill__row {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.Skill .Skill__row .Skill__icon {
+  width: 40px;
+  height: 40px;
+}
+
+.Contact__row {
+  width: 50%;
+}
+.Contact__row .Contact__input,
+.Contact__row .Contact__textarea {
+  background-color: transparent;
+  border: none;
+  font-size: 28px;
+  color: #fff;
+  border-radius: 0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+}
+.Contact__row .Contact__input:focus, .Contact__row .Contact__input:focus,
+.Contact__row .Contact__textarea:focus,
+.Contact__row .Contact__textarea:focus {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 0;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+@media (max-width: 768px) {
+  .Header {
+    min-height: 50vh;
+  }
+  .Skill__row {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+  .Contact__row {
+    width: 80%;
+  }
+}/*# sourceMappingURL=main.css.map */
