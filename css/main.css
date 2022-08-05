@@ -118,7 +118,7 @@
   color: #ff7a55;
   text-decoration: none;
 }
-.Project__card .Project__card-link-primary :hover {
+.Project__card .Project__card-link-primary:hover {
   color: #fb4b1a;
 }
 
